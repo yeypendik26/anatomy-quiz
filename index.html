@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anatomy Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Anatomy Quiz</h1>
+    <label>Region
+      <select id="region-select"></select>
+    </label>
+  </header>
+
+  <main class="layout">
+    <section class="viewer-panel">
+      <div id="viewer" class="viewer"></div>
+      <fieldset id="layers" class="layers">
+        <legend>Layer</legend>
+      </fieldset>
+    </section>
+
+    <section class="quiz-panel">
+      <p id="status" class="status">Memuat model...</p>
+
+      <div id="question" hidden>
+        <p class="counter"><span id="q-index"></span> &middot; Skor <span id="score"></span></p>
+        <h2 id="prompt"></h2>
+        <p id="feedback" class="feedback"></p>
+        <p id="explain" class="explain" hidden></p>
+        <button id="next-btn" type="button" hidden>Lanjut</button>
+      </div>
+
+      <div id="summary" hidden>
+        <h2>Selesai</h2>
+        <p id="summary-score"></p>
+        <ol id="summary-list"></ol>
+        <button id="restart-btn" type="button">Ulangi</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Model anatomi berbasis BodyParts3D &copy; Database Center for Life Science (DBCLS), CC BY-SA
+  </footer>
+
+  <script src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
+  <script src="config.js"></script>
+  <script src="viewer.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
