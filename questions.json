@@ -7,8 +7,7 @@
    "m_supraspinatus"
   ],
   "visible": [
-   "os_scapula",
-   "os_humerus",
+   "os_",
    "m_supraspinatus",
    "m_infraspinatus",
    "m_teres-minor",
@@ -25,8 +24,7 @@
    "m_subscapularis"
   ],
   "visible": [
-   "os_scapula",
-   "os_humerus",
+   "os_",
    "m_supraspinatus",
    "m_infraspinatus",
    "m_teres-minor",
@@ -42,8 +40,7 @@
    "m_teres-major"
   ],
   "visible": [
-   "os_scapula",
-   "os_humerus",
+   "os_",
    "m_teres-major",
    "m_teres-minor",
    "m_infraspinatus",
@@ -62,9 +59,7 @@
    "m_deltoideus-pars-spinalis"
   ],
   "visible": [
-   "os_scapula",
-   "os_clavicula",
-   "os_humerus",
+   "os_",
    "m_deltoideus-pars-clavicularis",
    "m_deltoideus-pars-acromialis",
    "m_deltoideus-pars-spinalis",
@@ -83,8 +78,7 @@
    "m_pectoralis-major-pars-abdominalis"
   ],
   "visible": [
-   "os_clavicula",
-   "os_humerus",
+   "os_",
    "m_pectoralis-major-pars-clavicularis",
    "m_pectoralis-major-pars-sternocostalis",
    "m_pectoralis-major-pars-abdominalis",
@@ -102,8 +96,7 @@
    "m_pectoralis-minor"
   ],
   "visible": [
-   "os_scapula",
-   "os_clavicula",
+   "os_",
    "m_pectoralis-minor",
    "m_subclavius",
    "m_serratus-anterior",
@@ -119,7 +112,7 @@
    "m_serratus-anterior"
   ],
   "visible": [
-   "os_scapula",
+   "os_",
    "m_serratus-anterior",
    "m_rhomboideus-major",
    "m_rhomboideus-minor",
@@ -136,7 +129,7 @@
    "m_rhomboideus-major"
   ],
   "visible": [
-   "os_scapula",
+   "os_",
    "m_rhomboideus-major",
    "m_rhomboideus-minor",
    "m_levator-scapulae",
@@ -154,8 +147,7 @@
    "m_triceps-brachii-caput-longum"
   ],
   "visible": [
-   "os_scapula",
-   "os_humerus",
+   "os_",
    "m_biceps-brachii-caput-longum",
    "m_biceps-brachii-caput-breve",
    "m_triceps-brachii-caput-longum",
@@ -174,9 +166,7 @@
    "m_biceps-brachii-caput-breve"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "m_biceps-brachii-caput-longum",
    "m_biceps-brachii-caput-breve",
    "m_brachialis",
@@ -193,8 +183,7 @@
    "m_coracobrachialis"
   ],
   "visible": [
-   "os_scapula",
-   "os_humerus",
+   "os_",
    "m_coracobrachialis",
    "m_biceps-brachii-caput-breve",
    "m_brachialis",
@@ -212,8 +201,7 @@
    "m_triceps-brachii-caput-mediale"
   ],
   "visible": [
-   "os_humerus",
-   "os_ulna",
+   "os_",
    "m_triceps-brachii-caput-longum",
    "m_triceps-brachii-caput-laterale",
    "m_triceps-brachii-caput-mediale",
@@ -231,9 +219,7 @@
    "m_flexor-carpi-ulnaris-caput-ulnare"
   ],
   "visible": [
-   "os_humerus",
-   "os_ulna",
-   "os_radius",
+   "os_",
    "m_flexor-carpi-ulnaris-caput-humerale",
    "m_flexor-carpi-ulnaris-caput-ulnare",
    "m_flexor-carpi-radialis",
@@ -251,8 +237,7 @@
    "m_flexor-digitorum-profundus"
   ],
   "visible": [
-   "os_ulna",
-   "os_radius",
+   "os_",
    "m_flexor-digitorum-profundus",
    "m_flexor-pollicis-longus",
    "m_pronator-quadratus",
@@ -269,9 +254,7 @@
    "m_pronator-teres-caput-ulnare"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "m_pronator-teres-caput-humerale",
    "m_pronator-teres-caput-ulnare",
    "m_pronator-quadratus",
@@ -288,8 +271,7 @@
    "m_supinator"
   ],
   "visible": [
-   "os_radius",
-   "os_ulna",
+   "os_",
    "m_supinator",
    "m_abductor-pollicis-longus",
    "m_extensor-pollicis-longus",
@@ -306,8 +288,7 @@
    "m_brachioradialis"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
+   "os_",
    "m_brachioradialis",
    "m_extensor-carpi-radialis-longus",
    "m_extensor-carpi-radialis-brevis",
@@ -324,9 +305,7 @@
    "m_opponens-pollicis"
   ],
   "visible": [
-   "os_metacarpale-i",
-   "os_trapezium",
-   "os_scaphoideum",
+   "os_",
    "m_opponens-pollicis",
    "m_abductor-pollicis-brevis",
    "m_flexor-pollicis-brevis",
@@ -343,8 +322,7 @@
    "m_adductor-pollicis-caput-transversum"
   ],
   "visible": [
-   "os_metacarpale-i",
-   "os_metacarpale-iii",
+   "os_",
    "m_adductor-pollicis-caput-obliquum",
    "m_adductor-pollicis-caput-transversum",
    "m_opponens-pollicis",
@@ -361,9 +339,7 @@
    "n_ulnaris"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "n_ulnaris",
    "n_medianus",
    "n_radialis"
@@ -378,9 +354,7 @@
    "n_radialis"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "n_radialis",
    "n_ulnaris",
    "n_medianus"
@@ -395,10 +369,7 @@
    "n_medianus"
   ],
   "visible": [
-   "os_scaphoideum",
-   "os_pisiforme",
-   "os_hamatum",
-   "os_trapezium",
+   "os_",
    "n_medianus",
    "n_ulnaris",
    "n_radialis"
@@ -413,9 +384,7 @@
    "a_brachialis"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "a_brachialis",
    "a_axillaris",
    "a_radialis",
@@ -432,9 +401,7 @@
    "v_cephalica"
   ],
   "visible": [
-   "os_humerus",
-   "os_radius",
-   "os_ulna",
+   "os_",
    "v_cephalica",
    "v_basilica",
    "v_mediana-cubiti"
