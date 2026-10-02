@@ -210,6 +210,13 @@ const Viewer = (() => {
     return setVisible(() => true);
   }
 
+  // Pusatkan pivot + zoom kamera ke geometri yang sedang terlihat saja,
+  // bukan bounding box seluruh model. Panggil setelah showOnly selesai.
+  function focusVisible() {
+    if (!api) return Promise.resolve();
+    return call("focusOnVisibleGeometries");
+  }
+
   function hasNode(nodeName) {
     return entriesFor(nodeName).length > 0;
   }
@@ -229,6 +236,7 @@ const Viewer = (() => {
     highlight,
     clearHighlight,
     showOnly,
+    focusVisible,
     resetVisibility,
     hasNode,
     matches,

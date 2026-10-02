@@ -77,7 +77,12 @@ button { font: inherit; padding: 0.4rem 1rem; cursor: pointer; }
 }
 
 @media (max-width: 767px) {
+  /* Halaman mengalir sesuai isi. Kalau tinggi dikunci 100%, baris grid viewer-panel
+     menyusut di bawah isinya dan panel layer menimpa panel soal. */
+  html, body { height: auto; }
   .layout { grid-template-columns: 1fr; }
-  .viewer { min-height: 55vh; }
-  .quiz-panel { border-left: 0; border-top: 1px solid #ccc; }
+  .viewer-panel { min-height: auto; }
+  .viewer { flex: none; min-height: 0; height: 50vh; height: 50svh; }
+  .layers { gap: 0.2rem 0.75rem; padding: 0.4rem 0.75rem; font-size: 0.85rem; }
+  .quiz-panel { border-left: 0; border-top: 1px solid #ccc; overflow-y: visible; }
 }

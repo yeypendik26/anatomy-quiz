@@ -53,13 +53,15 @@
 
   // Panggung soal aktif disaring layer yang dicentang. Layer tercentang yang tidak punya
   // entri di panggung ditampilkan utuh lewat prefix-nya.
-  function applyLayers() {
+  async function applyLayers() {
     const stage = stageOf(state && state.questions[state.idx]);
     const shown = checkedLayers().flatMap((p) => {
       const own = stage.filter((e) => e.startsWith(p));
       return own.length ? own : [p];
     });
-    return Viewer.showOnly(shown);
+    await Viewer.showOnly(shown);
+    // Kamera ke struktur yang terlihat. Tidak ditunggu: animasi kamera tidak boleh menahan UI soal.
+    Viewer.focusVisible().catch((err) => console.warn("[quiz] focusVisible gagal:", err));
   }
 
   function setStatus(text, isError = false) {
